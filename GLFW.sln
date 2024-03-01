@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.34302.98
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boing", "boing.vcxproj", "{F4BF338B-6D1F-31FC-8CA8-A0D62C212CCD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6F707C9D-C41D-39D0-96B2-ECC1101BEC5B} = {6F707C9D-C41D-39D0-96B2-ECC1101BEC5B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "glfw.vcxproj", "{6F707C9D-C41D-39D0-96B2-ECC1101BEC5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4BF338B-6D1F-31FC-8CA8-A0D62C212CCD}.Debug|x64.ActiveCfg = Debug|x64
+		{F4BF338B-6D1F-31FC-8CA8-A0D62C212CCD}.Debug|x64.Build.0 = Debug|x64
+		{F4BF338B-6D1F-31FC-8CA8-A0D62C212CCD}.Release|x64.ActiveCfg = Release|x64
+		{F4BF338B-6D1F-31FC-8CA8-A0D62C212CCD}.Release|x64.Build.0 = Release|x64
+		{6F707C9D-C41D-39D0-96B2-ECC1101BEC5B}.Debug|x64.ActiveCfg = Debug|x64
+		{6F707C9D-C41D-39D0-96B2-ECC1101BEC5B}.Debug|x64.Build.0 = Debug|x64
+		{6F707C9D-C41D-39D0-96B2-ECC1101BEC5B}.Release|x64.ActiveCfg = Release|x64
+		{6F707C9D-C41D-39D0-96B2-ECC1101BEC5B}.Release|x64.Build.0 = Release|x64
+		{7CF783FA-D466-3FDB-A145-4037C16F69D1}.Debug|x64.ActiveCfg = Debug|x64
+		{7CF783FA-D466-3FDB-A145-4037C16F69D1}.Debug|x64.Build.0 = Debug|x64
+		{7CF783FA-D466-3FDB-A145-4037C16F69D1}.Release|x64.ActiveCfg = Release|x64
+		{7CF783FA-D466-3FDB-A145-4037C16F69D1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4667F1B-3EC3-3870-B311-7A31D0082837}
+	EndGlobalSection
+EndGlobal
